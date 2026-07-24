@@ -563,10 +563,32 @@ footer {
   letter-spacing: .55em;
 }
 
+.footer-social {
+  text-align: right;
+}
+
+.footer-social > span {
+  display: block;
+  margin-bottom: .55rem;
+  color: rgba(255,255,255,.42);
+  font-family: var(--serif);
+  font-size: .88rem;
+  font-style: italic;
+  letter-spacing: .04em;
+}
+
 .footer-links {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+}
+
+.footer-links a {
+  transition: color .25s ease;
+}
+
+.footer-links a:hover {
+  color: var(--blue);
 }
 
 .reveal {
@@ -637,6 +659,10 @@ footer {
 
   footer {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-social {
     text-align: center;
   }
 
