@@ -34,9 +34,3 @@ The current film-card imagery is loaded from Unsplash. Replace those URLs with l
 Verify the social profile URLs before publishing if any platform handle differs from `velapictures`.
 
 - Corrected Instagram URL to `https://www.instagram.com/vela.pictures/`.
-
-
-## Version 1.1.2
-
-- Replaced the decorative constellation in the intro with a Vela line figure based on the IAU OAE / Sky & Telescope chart.
-- Added the corrected Vela figure over the hero artwork.
